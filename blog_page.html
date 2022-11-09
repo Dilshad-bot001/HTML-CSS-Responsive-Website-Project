@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAS University</title>
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">
+                <img src="Images/eduford_img/logo.png" alt="LogoImage">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about_us.html">ABOUT US</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog_page.html">BLOG</a></li>
+                    <li><a href="contact_us.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2022</h1>
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="Images/eduford_img/certificate.jpg" alt="Image">
+                <h2>Our Certificate & Online Programs For 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, distinctio eveniet? Debitis magni temporibus, ad ut distinctio doloremque porro quod sunt quas repellendus deleniti rerum non ipsam voluptate, illo expedita error consectetur possimus cum odio odit animi? Odio, esse tempore.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut corrupti sequi quia voluptates voluptatibus ipsa beatae debitis vero. Possimus magni illum, sunt architecto nulla unde porro? Sunt perferendis quaerat, atque nostrum sed aliquid. Error aliquam, architecto laboriosam quas dolore officiis sit vero iusto neque quibusdam doloribus, facere, earum expedita. Est velit tenetur iure officiis rem ad vero voluptatibus labore repellat debitis blanditiis quos laboriosam deserunt dicta voluptatem pariatur nulla corrupti odit repudiandae, nemo quis, consectetur dolorum, quae eius! Iusto alias quisquam modi hic eligendi fugiat, et animi odit quam corrupti illum atque architecto, earum rem? Quas aspernatur earum dolore eius.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nesciunt eligendi id obcaecati totam explicabo aliquam quam soluta, veritatis provident, cumque minima maxime, incidunt natus? Quaerat corporis quae sunt aspernatur unde nam numquam quasi neque obcaecati iste, repellendus similique labore id tenetur accusamus molestias deleniti non quibusdam cupiditate alias, earum ea voluptatibus aliquid. Aspernatur magni dolores, officiis voluptatibus, dolor odio hic id adipisci aliquam enim, illum nihil totam perferendis. In!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio tenetur fugit rerum ipsa quidem distinctio obcaecati, debitis consequuntur error dolore voluptatum, atque illo cupiditate repudiandae. Obcaecati sint est quae voluptatibus explicabo. Commodi harum accusantium perferendis numquam ut quod, praesentium quaerat?</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>25</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>19</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>01</span>
+                </div>
+                <div>
+                    <span>Artificial Intelligence</span>
+                    <span>12</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo corporis distinctio deleniti soluta nesciunt qui <br>tempore consequatur assumenda quod facilis!</p>
+        <div class="icons">
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by DAS</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
